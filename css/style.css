@@ -263,14 +263,16 @@ body {
     position: absolute;
     top: 60px;
     left: 0px;
-    width: 80%;
+    width: 100%;
     margin: 0;
-    height: auto;
+    height: 90%;
     border-radius: 6px;
     padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color: var(--white);
 }
 .mobile-menu ul:nth-child(1) {
     padding: 0 0;
@@ -493,10 +495,12 @@ nav {
     align-items: center;
 }
 .product-detail {
+    background-color: var(--white);
     width: 360px;
     padding-bottom: 24px;
     position: absolute;
     right: 0;
+    top: 60px;
 }
 .product-detail-close {
     background-color: var(--white);
@@ -585,6 +589,7 @@ nav {
     font-weight: bold;
 }
 .cart-detail{
+    background-color: var(--white);
     width: 360px;
     padding-bottom: 24px;
     position: absolute;
